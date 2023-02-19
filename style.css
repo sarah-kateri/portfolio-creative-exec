@@ -30,7 +30,7 @@ li {
 }
 
 a#fade {
-    color: white;
+    color: darkgray;
 }
 
 a:link { 
@@ -100,7 +100,7 @@ p {
     width: 70%;
     margin: 0px 10%;
     padding: 1%;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 .line {
@@ -115,6 +115,7 @@ p {
 
 .case-page-container {
     display: flex;
+    height: 100vh;
 }
 
 .case-main {
@@ -130,7 +131,7 @@ p {
 .img-toc-container {
     width: 60%;
     margin: 5% 10%;
-    flex: 1;
+    display: flex;
 }
 
 #img-toc {
@@ -158,14 +159,10 @@ img.case {
     background-color: white;
     height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .case-1, .case-3, .case-5 {
     background-color: whitesmoke;
     height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
